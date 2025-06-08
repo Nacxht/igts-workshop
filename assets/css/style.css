@@ -1,0 +1,48 @@
+:root {
+    --bg-color: #121212;
+    --main-text: #FFFFFF;
+    --border: #323232;
+    --first-accent: #007BFF;
+    --second-accent: #F9CC41;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: var(--main-text);
+}
+
+body {
+    background: var(--bg-color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px var(--border) solid;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+main {
+    margin: 1rem 20rem;
+}
